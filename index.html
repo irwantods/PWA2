@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="My first PWA" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>My First PWA</title>
+    <!-- load komponen -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#c9d6df" />
+    <link rel="icon" type="icon" href="/soccer-ball-128.ico" />
+    <link rel="apple-touch-icon" href="/soccer-ball-128.ico" />
+</head>
+
+<main>
+    <!-- Navigasi -->
+    <nav class="grey" role="navigation">
+        <div class="nav-wrapper container">
+            <a id="logo-container" href="#" class="brand-logo">My App</a>
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger">☰</a>
+            <ul class="topnav right hide-on-med-and-down"></ul>
+            <ul id="nav-mobile" class="sidenav"></ul>
+        </div>
+    </nav>
+    <!-- Akhir Navigasi -->
+    <div class="container" id="body-content">
+    </div>
+
+    <!-- load js -->
+    <script src="js/materialize.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/sw-register.js"></script>
+    <script src="js/api.js"></script>
+</main>
+<!-- footer start -->
+<footer class="page-footer grey">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">Footer Content</h5>
+                <p class="text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            © 2014 Copyright Text
+        </div>
+    </div>
+</footer>
+
+</html>
