@@ -1,0 +1,12 @@
+main {
+    font-family: 'Patrick Hand', cursive;
+}
+
+.parallax-container {
+    width: 100%;
+}
+
+.navbar-fixed {
+    position: absolute;
+    z-index: 999999999;
+}

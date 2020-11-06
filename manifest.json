@@ -1,61 +1,61 @@
 {
-    "name": "SubmissionII",
-    "short_name": "PWA",
-    "description": "SubmissionII",
-    "start_url": "index.html",
+    "name": "AASoccer",
+    "short_name": "AAS",
+    "description": "PWA II",
+    "start_url": "/index.html",
     "display": "standalone",
-    "background_color": "#52616b",
-    "theme_color": "#52616b",
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
     "icons": [{
-            "src": "./img/soccer-ball-512.png",
+            "src": "./asset/img/soccer-ball-512.png",
             "sizes": "512x512",
             "type": "image/png",
             "purpose": "any maskable"
         },
         {
-            "src": "./img/soccer-ball-384.png",
+            "src": "./asset/img/soccer-ball-384.png",
             "sizes": "384x384",
             "type": "image/png",
             "purpose": "any maskable"
         },
         {
-            "src": "./img/soccer-ball-256.png",
+            "src": "./asset/img/soccer-ball-256.png",
             "sizes": "256x256",
             "type": "image/png",
             "purpose": "any maskable"
         },
         {
-            "src": "./img/soccer-ball-192.png",
+            "src": "./asset/img/soccer-ball-192.png",
             "sizes": "192x192",
             "type": "image/png",
             "purpose": "any maskable"
         },
         {
-            "src": "./img/soccer-ball-152.png",
+            "src": "./asset/img/soccer-ball-152.png",
             "sizes": "152x152",
             "type": "image/png",
             "purpose": "any maskable"
         },
         {
-            "src": "./img/soccer-ball-144.png",
+            "src": "./asset/img/soccer-ball-144.png",
             "sizes": "144x144",
             "type": "image/png",
             "purpose": "any maskable"
         },
         {
-            "src": "./img/soccer-ball-128.png",
+            "src": "./asset/img/soccer-ball-128.png",
             "sizes": "128x128",
             "type": "image/png",
             "purpose": "any maskable"
         },
         {
-            "src": "./img/soccer-ball-64.png",
+            "src": "./asset/img/soccer-ball-64.png",
             "sizes": "64x64",
             "type": "image/png",
             "purpose": "any maskable"
         },
         {
-            "src": "./img/soccer-ball-32.png",
+            "src": "./asset/img/soccer-ball-32.png",
             "sizes": "32x32",
             "type": "image/png",
             "purpose": "any maskable"
